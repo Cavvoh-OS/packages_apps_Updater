@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolution.updater;
+package org.cavvoh.updater;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -69,15 +69,15 @@ import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.snackbar.Snackbar;
 
 import org.json.JSONException;
-import org.evolution.updater.controller.UpdaterController;
-import org.evolution.updater.controller.UpdaterService;
-import org.evolution.updater.download.DownloadClient;
-import org.evolution.updater.misc.BuildInfoUtils;
-import org.evolution.updater.misc.Constants;
-import org.evolution.updater.misc.StringGenerator;
-import org.evolution.updater.misc.Utils;
-import org.evolution.updater.model.Update;
-import org.evolution.updater.model.UpdateInfo;
+import org.cavvoh.updater.controller.UpdaterController;
+import org.cavvoh.updater.controller.UpdaterService;
+import org.cavvoh.updater.download.DownloadClient;
+import org.cavvoh.updater.misc.BuildInfoUtils;
+import org.cavvoh.updater.misc.Constants;
+import org.cavvoh.updater.misc.StringGenerator;
+import org.cavvoh.updater.misc.Utils;
+import org.cavvoh.updater.model.Update;
+import org.cavvoh.updater.model.UpdateInfo;
 
 import java.io.File;
 import java.io.IOException;

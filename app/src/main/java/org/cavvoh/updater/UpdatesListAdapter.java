@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolution.updater;
+package org.cavvoh.updater;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -53,14 +53,14 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.snackbar.Snackbar;
 
-import org.evolution.updater.controller.UpdaterController;
-import org.evolution.updater.controller.UpdaterService;
-import org.evolution.updater.misc.BuildInfoUtils;
-import org.evolution.updater.misc.Constants;
-import org.evolution.updater.misc.StringGenerator;
-import org.evolution.updater.misc.Utils;
-import org.evolution.updater.model.UpdateInfo;
-import org.evolution.updater.model.UpdateStatus;
+import org.cavvoh.updater.controller.UpdaterController;
+import org.cavvoh.updater.controller.UpdaterService;
+import org.cavvoh.updater.misc.BuildInfoUtils;
+import org.cavvoh.updater.misc.Constants;
+import org.cavvoh.updater.misc.StringGenerator;
+import org.cavvoh.updater.misc.Utils;
+import org.cavvoh.updater.model.UpdateInfo;
+import org.cavvoh.updater.model.UpdateStatus;
 
 import java.io.IOException;
 import java.nio.file.Files;

@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolution.updater;
+package org.cavvoh.updater;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import org.evolution.updater.model.UpdateInfo;
+import org.cavvoh.updater.model.UpdateInfo;
 
 public abstract class UpdatesListActivity extends AppCompatActivity {
     public abstract void exportUpdate(UpdateInfo update);
